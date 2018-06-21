@@ -9,7 +9,10 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test1": "sleep 5 && echo test success",
+    "test2": "sleep 7 && echo test success",
+    "test3": "sleep 10 && echo test success"
   },
   "author": "Leon Jalfon",
   "license": "MIT"
