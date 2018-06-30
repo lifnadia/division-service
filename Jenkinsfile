@@ -35,10 +35,9 @@ pipeline {
         sh 'docker build -t lifnadia/division-service:latest .'
       }
     }
-    stage('') {
+    stage('push') {
       steps {
-        sh '''docker login -u lifnadia -p lifnadia29
-docker push lifnadia/division-service:latest
+        sh '''docker push lifnadia/division-service:latest
 '''
       }
     }
